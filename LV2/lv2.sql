@@ -12,7 +12,7 @@ CREATE TABLE studentNovkovic (
     grupa INT,
     godina_upisa INT,
     godina_studija INT,
-    FOREIGN KEY (grupa) REFERENCES grupe(id_grupe)
+    FOREIGN KEY (grupa) REFERENCES grupeNovkovic(id_grupe)
 );
 
 ALTER TABLE studentNovkovic
