@@ -8,7 +8,7 @@ visina SMALLINT,
 broj_cipela SMALLINT,
 );
  
-INSERT INTO novkovic_3_osobe_2 (ime, prezime, jmbg, datum_rod, spol, visina, broj_cipela) VALUES 
+INSERT INTO novkovic_3_osobe_2(ime, prezime, jmbg, datum_rod, spol, visina, broj_cipela) VALUES 
 ('Ivica', 'Ivic', 123, '10.10.2001', 'M', 180, 40),
 ('Ana', 'Anic', 234, '11.11.2002', 'Z', 165, 38),
 ('Mia', 'Mijic', 345, '12.01.2003', 'Z', 170, 39),
