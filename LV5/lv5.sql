@@ -65,7 +65,7 @@ BEGIN
     ELSE IF (@mjesec = 2 AND @dan >= 19) OR (@mjesec = 3 AND @dan <= 20)
         PRINT 'RIBA';
     ELSE IF (@mjesec = 3 AND @dan >= 21) OR (@mjesec = 4 AND @dan <= 19)
-       OV PRINT 'AN';
+        PRINT 'OVAN';
     ELSE IF (@mjesec = 4 AND @dan >= 20) OR (@mjesec = 5 AND @dan <= 20)
         PRINT 'BIK';
     ELSE IF (@mjesec = 5 AND @dan >= 21) OR (@mjesec = 6 AND @dan <= 20)
